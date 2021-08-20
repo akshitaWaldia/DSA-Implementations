@@ -34,8 +34,14 @@ class ArrayList
       a.put(5);
       a.add("pqr");
       a.put(6);
-      for(int i=1;i<=6;i++){
-          a.put(i);
+      String[] words={"stu","vwx","yz"};
+      for(String w: words){
+          a.add(w);
       }
+      
+          a.put(7);
+          a.put(8);
+          a.put(9);
+      
      }
 }
